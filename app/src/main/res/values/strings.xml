@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="nombre">Nombre (*)</string>
+    <string name="apellido">Apellido</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento (*)</string>
+    <string name="pais">Pais (*)</string>
+    <string name="telefono">Telefono (*)</string>
+    <string name="direccion">Direccion</string>
+    <string name="correo_electronico">Correo electronico (*)</string>
+    <string name="hobby">Hobby</string>
+    <string name="favorito">Favorito</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="datos">Datos</string>
+
+    <String-array name="paises">
+        <Item>Argentina</Item>
+        <Item>Bolivia</Item>
+        <Item>Brasil</Item>
+        <Item>Chile</Item>
+        <Item>Colombia</Item>
+        <Item>Costa Rica</Item>
+        <Item>Cuba</Item>
+        <Item>Ecuador</Item>
+        <Item>El Salvador</Item>
+        <Item>Guayana Francesa</Item>
+        <Item>Granada</Item>
+        <Item>Guatemala</Item>
+        <Item>Guayana</Item>
+        <Item>Haití</Item>
+        <Item>Honduras</Item>
+        <Item>Jamaica</Item>
+        <Item>México</Item>
+        <Item>Nicaragua</Item>
+        <Item>Paraguay</Item>
+        <Item>Panamá</Item>
+        <Item>Perú</Item>
+        <Item>Puerto Rico</Item>
+        <Item>República Dominicana</Item>
+        <Item>Surinam</Item>
+        <Item>Uruguay</Item>
+        <Item>Venezuela</Item>
+    </String-array>
+
+    <string-array name="hobbies">
+        <item>N/A</item>
+        <Item>Jugar futbol</Item>
+        <Item>Jugar ajedrez</Item>
+        <Item>Nadar</Item>
+        <Item>Tocar la guitarra</Item>
+        <Item>Montar en bicicleta</Item>
+    </string-array>
+</resources>
