@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Lab1UI</string>
     <string name="nombre">Name (*)</string>
-    <string name="apellido">Las name</string>
+    <string name="apellido">Last name</string>
     <string name="fecha_de_nacimiento">Birthdate (*)</string>
     <string name="pais">Country (*)</string>
     <string name="telefono">Number phone (*)</string>
@@ -12,42 +12,54 @@
     <string name="favorito">Favorite</string>
     <string name="mostrar">To show</string>
     <string name="datos">Dates</string>
+    <string name= "masculino">Male</string>
+    <string name= "femenino">Female</string>
+    <string name="atencion">Attention</string>
+    <string name="nombreVacio">The name is required</string>
+    <string name="paisVacio">The country is required</string>
+    <string name="telefonoVacio">The number phone is required</string>
+    <string name="fechaVacio">The birthdate is required</string>
+    <string name="correoVacio">the email is required</string>
+    <string name="aceptar">Ok</string>
+    <string name="sexo">sex</string>
+    <string name="fav">favorite</string>
+    <string name="noFav">No favorite</string>
 
-    <String-array name="paises">
-        <Item>Argentina</Item>
-        <Item>Bolivia</Item>
-        <Item>Brasil</Item>
-        <Item>Chile</Item>
-        <Item>Colombia</Item>
-        <Item>Costa Rica</Item>
-        <Item>Cuba</Item>
-        <Item>Ecuador</Item>
-        <Item>El Salvador</Item>
-        <Item>Guayana Francesa</Item>
-        <Item>Granada</Item>
-        <Item>Guatemala</Item>
-        <Item>Guayana</Item>
-        <Item>Haití</Item>
-        <Item>Honduras</Item>
-        <Item>Jamaica</Item>
-        <Item>México</Item>
-        <Item>Nicaragua</Item>
-        <Item>Paraguay</Item>
-        <Item>Panamá</Item>
-        <Item>Perú</Item>
-        <Item>Puerto Rico</Item>
-        <Item>República Dominicana</Item>
-        <Item>Surinam</Item>
-        <Item>Uruguay</Item>
-        <Item>Venezuela</Item>
-    </String-array>
+    <string-array name="paises">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guayana Francesa</item>
+        <item>Granada</item>
+        <item>Guatemala</item>
+        <item>Guayana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Panamá</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
 
     <string-array name="hobbies">
         <item>N/A</item>
-        <Item>To play soccer</Item>
-        <Item>To play chess</Item>
-        <Item>To swim</Item>
-        <Item>To play the guitar</Item>
-        <Item>Ride in bike</Item>
+        <item>To play soccer</item>
+        <item>To play chess</item>
+        <item>To swim</item>
+        <item>To play the guitar</item>
+        <item>Ride in bike</item>
     </string-array>
 </resources>

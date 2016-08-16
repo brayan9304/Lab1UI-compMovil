@@ -3,50 +3,62 @@
     <string name="nombre">Nombre (*)</string>
     <string name="apellido">Apellido</string>
     <string name="fecha_de_nacimiento">Fecha de nacimiento (*)</string>
-    <string name="pais">Pais (*)</string>
-    <string name="telefono">Telefono (*)</string>
-    <string name="direccion">Direccion</string>
-    <string name="correo_electronico">Correo electronico (*)</string>
+    <string name="pais">País (*)</string>
+    <string name="telefono">Teléfono (*)</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo_electronico">Correo electrónico (*)</string>
     <string name="hobby">Hobby</string>
     <string name="favorito">Favorito</string>
     <string name="mostrar">Mostrar</string>
     <string name="datos">Datos</string>
+    <string name= "masculino">Masculino</string>
+    <string name= "femenino">Femenino</string>
+    <string name="atencion">Atención</string>
+    <string name="nombreVacio">El nombre es requerido</string>
+    <string name="paisVacio">El país es requerido</string>
+    <string name="telefonoVacio">El teléfono es requerido</string>
+    <string name="fechaVacio">La fecha de nacimiento es requerida</string>
+    <string name="correoVacio">El correo electrónico es requerido</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="sexo">Sexo</string>
+    <string name="fav">Es favorito</string>
+    <string name="noFav">No es favorito</string>
 
-    <String-array name="paises">
-        <Item>Argentina</Item>
-        <Item>Bolivia</Item>
-        <Item>Brasil</Item>
-        <Item>Chile</Item>
-        <Item>Colombia</Item>
-        <Item>Costa Rica</Item>
-        <Item>Cuba</Item>
-        <Item>Ecuador</Item>
-        <Item>El Salvador</Item>
-        <Item>Guayana Francesa</Item>
-        <Item>Granada</Item>
-        <Item>Guatemala</Item>
-        <Item>Guayana</Item>
-        <Item>Haití</Item>
-        <Item>Honduras</Item>
-        <Item>Jamaica</Item>
-        <Item>México</Item>
-        <Item>Nicaragua</Item>
-        <Item>Paraguay</Item>
-        <Item>Panamá</Item>
-        <Item>Perú</Item>
-        <Item>Puerto Rico</Item>
-        <Item>República Dominicana</Item>
-        <Item>Surinam</Item>
-        <Item>Uruguay</Item>
-        <Item>Venezuela</Item>
-    </String-array>
+    <string-array name="paises">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guayana Francesa</item>
+        <item>Granada</item>
+        <item>Guatemala</item>
+        <item>Guayana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Panamá</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
 
     <string-array name="hobbies">
         <item>N/A</item>
-        <Item>Jugar futbol</Item>
-        <Item>Jugar ajedrez</Item>
-        <Item>Nadar</Item>
-        <Item>Tocar la guitarra</Item>
-        <Item>Montar en bicicleta</Item>
+        <item>Jugar fútbol </item>
+        <item>Jugar ajedrez</item>
+        <item>Nadar</item>
+        <item>Tocar la guitarra</item>
+        <item>Montar en bicicleta</item>
     </string-array>
 </resources>

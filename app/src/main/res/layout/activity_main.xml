@@ -28,7 +28,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:hint="@string/nombre"
-                android:inputType="textPersonName" />
+                android:inputType="textCapWords" />
 
 
             <EditText
@@ -37,7 +37,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:hint="@string/apellido"
-                android:inputType="textPersonName" />
+                android:inputType="textCapWords" />
 
             <RadioGroup
                 android:id="@+id/sexo"
@@ -53,19 +53,20 @@
                     android:id="@+id/Masculino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Masculino" />
+                    android:text="@string/masculino" />
 
                 <RadioButton
                     android:id="@+id/Femenino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
-                    android:text="Femenino" />
+                    android:text="@string/femenino" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/fecha_de_nacimiento" />
@@ -74,7 +75,6 @@
                 android:id="@+id/fecha"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginTop="@dimen/activity_horizontal_margin"
                 android:layout_weight="1"
                 android:calendarViewShown="false"
                 android:datePickerMode="spinner" />
@@ -85,7 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:hint="@string/pais" />
+                android:hint="@string/pais"
+                android:inputType="textCapWords" />
 
 
             <EditText
@@ -102,7 +103,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:hint="@string/direccion" />
+                android:hint="@string/direccion"
+                android:inputType="textPostalAddress" />
 
 
             <EditText
@@ -117,6 +119,7 @@
                 android:id="@+id/input_hobbies"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@string/hobby" />
@@ -133,6 +136,7 @@
                 android:id="@+id/favorito"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
                 android:layout_weight="1"
                 android:text="@string/favorito" />
 
